@@ -4,9 +4,8 @@ on:
   push:
     branches:
       - master  # Set a branch to deploy
-  pull_request:
-    branches:
       - workflow # Just for test
+  pull_request:
 
 jobs:
   deploy:
